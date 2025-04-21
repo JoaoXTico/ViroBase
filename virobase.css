@@ -1,0 +1,109 @@
+body{
+    background-color: #7fe7fb;
+}
+
+h1{
+    color: #026c81;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    padding-right: 50px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu ul li a:hover{
+    color: black;
+    background-color: #3d70e0;
+    transition: 0.5s all;
+}
+
+#menu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #dcebaf;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #1caeca;
+    padding: 0 50px;
+}
+
+
+#categoria{
+    background-color: #33a8ff;
+    padding: 2px;
+    border-radius: 10px;
+    width: 50px;
+
+}
+
+#login {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f3eded;
+    text-align: left;
+  }
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+#email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    font-size: 14px;
+  }
+
+#senha {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    font-size: 14px;
+  }  
+  
+#logar {
+    width: 100%;
+    padding: 12px;
+    background-color: #b3e5fc;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+#esqueci {
+    display: block;
+    margin-top: 10px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+  }

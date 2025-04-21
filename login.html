@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rascunho</title>
+    <link rel="stylesheet" href="virobase.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo"> <img src="logo_virobase.png" width="50"></div>
+        <nav id="menu">
+            <ul>
+                <li> <a href="cadastro.html"> Cadastro </a></li>
+                <li> <a href="info.html"> Informações </a></li>
+                <li> <a href="aconselhamentos.html"> Aconselhamentos </a></li>
+                <li> <a href="sintomas.html"> Sintomas </a></li>
+                <li> <a href="login.html">Fazer Login</a></li>
+            </ul>
+        </nav>
+     </header>
+
+    <div class="container" id="login">
+        <h1>ViroBase</h1>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <button id="logar" onclick="cadastrar()">Cadastrar</button>
+        <p><a href="#" onclick="esqueciSenha()">Esqueci a senha</a></p>
+    </div>
+    <script>
+        function cadastrar() {
+            const email = document.getElementById("email").value;
+            const senha = document.getElementById("senha").value;
+            if (email === "" || senha === "") {
+                alert("preencha os campos corretamente.");
+                return;
+            }
+            alert("Cadastro realizado")
+        }
+        function esqueciSenha(){
+            const email = prompt("Digite seu email: ");
+            if (email) {
+                alert(`Um link foi enviado para ${email}.`);
+            } else {
+                alert("Por favor, ensira um email válido")
+            }
+        }
+    </script>
+</body>
+</html>
