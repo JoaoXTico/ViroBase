@@ -177,12 +177,21 @@ h3{
 
 #dados{
   width: 320px;
-  height: 400px;
+  height: 450px;
   padding: 30px;
   border: 5px solid #005ca9;
   margin: auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#nome{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ddefc;
+    color: black;
 }
 
 #email{
