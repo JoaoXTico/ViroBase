@@ -1,64 +1,73 @@
 body{
-    background-color: #7fe7fb;
+    background-color:  #c2f2fc ;
+    margin: 0;
 }
+
 
 h1{
     color: #026c81;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
+
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #026c81;
 }
 
+
 p{
     font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
 }
+
 
 #logo{
     padding-right: 50px;
 }
 
+
 #menu ul{
     list-style: none;
 }
+
 
 #menu ul li{
     display: inline;
     padding: 20px;
 }
 
+
 #menu ul li a:hover{
     color: black;
-    background-color: #3d70e0;
+    background-color:  #4ddefc  ;
     transition: 0.5s all;
 }
+
 
 #menu ul li a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #dcebaf;
+    color: black;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
 }
 
+
 header{
     display: flex;
     align-items: center;
-    background-color: #1caeca;
+    background-color:  #9cebfc ;
     padding: 0 50px;
-}
-
-
-#categoria{
-    background-color: #33a8ff;
-    padding: 2px;
-    border-radius: 10px;
-    width: 50px;
+    position: sticky;
+    top: 0;
 
 }
+
+
 
 #login {
     width: 400px;
@@ -67,14 +76,9 @@ header{
     background-color: #f3eded;
     text-align: left;
   }
-  
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-#email {
-    width: 100%;
+ 
+#login_e {
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     background-color: #d9d9d9;
@@ -82,15 +86,16 @@ h1 {
     font-size: 14px;
   }
 
-#senha {
-    width: 100%;
+
+#login_s {
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     background-color: #d9d9d9;
     border: none;
     font-size: 14px;
   }  
-  
+ 
 #logar {
     width: 100%;
     padding: 12px;
@@ -99,7 +104,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
   }
-  
+ 
 #esqueci {
     display: block;
     margin-top: 10px;
@@ -107,3 +112,123 @@ h1 {
     text-decoration: none;
     font-size: 14px;
   }
+
+
+#esc{
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: large;
+}
+
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+    font-weight: bold;
+
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+    font-weight: bold;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+}
+
+dt{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+}
+
+dl{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+    font-weight: bold;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #026c81;
+}
+
+#cadastro{
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: large;
+    text-align: center;
+}
+
+#botao {
+  background-color: #005ca9;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+#dados{
+  width: 320px;
+  height: 500px;
+  padding: 30px;
+  border: 5px solid #005ca9;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#nome{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ddefc;
+    color: black;
+}
+
+#email{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ddefc;
+    color: black;
+}
+
+#senha{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ddefc;
+    color: black;
+}
+
+#cpf{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ddefc;
+    color: black;
+}
+
+#continua{
+  background-color: #005ca9;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
