@@ -7,57 +7,100 @@
     <link rel="stylesheet" href="virobase.css">
 </head>
 <body>
- <header>
+<header>
     <div id="logo"> 
         <a href="index.html">
-            <img src="imagens/logo_virobase.png" width="50"></div>
+            <img src="imagens/logo_virobase.png" width="50">
             </a>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li> <a href="cadastro.html"> Cadastro </a></li>
+            <li> <a href="info.html"> Informações </a></li>
+            <li> <a href="aconselhamentos.html"> Aconselhamentos </a></li>
+            <li> <a href="sintomas.html"> Sintomas </a></li>
+            <li> <a href="login.html">Fazer Login</a></li>
+        </ul>
+    </nav>
  </header>
  <br><br>    
 
 
-    <div id="manifest">
+<h1 style="padding-left: 20px;">Sintomas apresentados</h1>
+<p style="padding-left: 20px; font-weight: bold; font-size: large;">Selecione os sintomas que você está sentindo.</p>
+
+<div id="manifest">
 <form id="sintomasForm">
-<label><input type="checkbox" name="febre" value="febre"> Febre</label> 
+
+<label class="container">
+<input type="checkbox" class="checkmark" name="febre" value="febre"> <p>Febre</p></label> 
 <br><br>
 
-<label><input type="checkbox" name="fadiga" value="fadiga">  Fadiga</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="fadiga" value="fadiga"> <p>Fadiga</p></label> 
 <br><br>
 
-<label><input type="checkbox" name="dor_corpo" value="dor_corpo"> Dores no corpo</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="dor_corpo" value="dor_corpo"> <p> Dores no corpo </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="dor_garganta" value="dor_garganta"> Dor de garganta</label> 
+<label class="container">
+<input type="checkbox" class="checkmark"  name="dor_garganta" value="dor_garganta"> <p> Dor de garganta </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="tosse" value="tosse"> Tosse</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="tosse" value="tosse"> <p> Tosse </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="espirro" value="espirro"> Espirros</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="espirro" value="espirro"> <p> Espirros </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="diarreia" value="diarreia"> Diarreia</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="diarreia" value="diarreia"> <p> Diarreia </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="nausea" value="nausea"> Náusea</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="nausea" value="nausea"> <p> Náusea </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="vomitos" value="vomitos"> Vômitos</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="vomitos" value="vomitos"> <p> Vômitos </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="dor_abdominal" value="dor_abdominal"> Dor abdominal</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="dor_abdominal" value="dor_abdominal"> <p> Dor abdominal </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="apetite" value="apetite"> Falta de apetite</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="apetite" value="apetite"> <p> Falta de apetite </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="mal_est" value="mal_est"> Mal-estar geral</label> 
+<label class="container">
+<input type="checkbox" class="checkmark"  name="mal_est" value="mal_est"> <p> Mal-estar geral </p></label> 
 <br><br>
 
-<label><input type="checkbox" name="desidratacao" value="desidratacao"> Desidratação</label> 
+<label class="container">
+<input type="checkbox" class="checkmark" name="desidratacao" value="desidratacao"> <p> Desidratação </p></label> 
 <br><br>
 
+<p></p>
+<input type="text" id="local" name="local">
+<br><br><br>
 
 <button type="submit" id="continua">Cadastrar</button>
 </form>
     </div>
+
+<br><br>
+
+    <footer id="footer">
+        <p><b>Desenvolvido por:
+        Guilherme Felipe,
+        João Pedro Marques e
+        Lucas de Morais</b>
+    </p>
+    </footer>
+
+    </body>
+</html>

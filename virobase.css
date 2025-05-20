@@ -1,5 +1,5 @@
 body{
-    background-color:  #c2f2fc ;
+    background-color:  #ddf5fa ;
     margin: 0;
 }
 
@@ -42,7 +42,7 @@ p{
 
 #menu ul li a:hover{
     color: black;
-    background-color:  #4ddefc  ;
+    background-color: #55d6f0   ;
     transition: 0.5s all;
 }
 
@@ -60,9 +60,10 @@ p{
 header{
     display: flex;
     align-items: center;
-    background-color:  #9cebfc ;
+    background-color:  #87e4fc ;
     padding: 0 50px;
     position: sticky;
+    z-index: 10;
     top: 0;
 
 }
@@ -73,7 +74,7 @@ header{
     width: 400px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #f3eded;
+    background-color: #ffffff;
     text-align: left;
   }
  
@@ -105,12 +106,15 @@ header{
     cursor: pointer;
   }
  
-#esqueci {
-    display: block;
-    margin-top: 10px;
-    color: #1a73e8;
-    text-decoration: none;
-    font-size: 14px;
+
+  #esqueci{
+    width: 320px;
+    height: 200px;
+    padding: 30px;
+    border: 5px solid #005ca9;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
 
@@ -120,6 +124,11 @@ header{
     font-size: large;
 }
 
+#oque{
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: large;
+}
 
 ol{
     font-family: Arial, Helvetica, sans-serif;
@@ -156,11 +165,19 @@ h3{
     color: #026c81;
 }
 
+summary{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #084552;
+}
+
 #cadastro{
-    padding-left: 40px;
-    padding-right: 30px;
-    font-size: large;
-    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid #005ca9;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #botao {
@@ -190,7 +207,7 @@ h3{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4ddefc;
+    background-color: #6fe5fd;
     color: black;
 }
 
@@ -199,7 +216,7 @@ h3{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4ddefc;
+    background-color: #6fe5fd;
     color: black;
 }
 
@@ -208,7 +225,7 @@ h3{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4ddefc;
+    background-color: #6fe5fd;
     color: black;
 }
 
@@ -217,7 +234,7 @@ h3{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4ddefc;
+    background-color: #6fe5fd;
     color: black;
 }
 
@@ -231,4 +248,52 @@ h3{
   font-weight: bold;
   display: inline-block;
   text-align: center;
+}
+
+#tipos{
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: large;
+    
+}
+
+#footer{
+    padding: 3px;
+    text-align: center;
+    background-color:  hsl(190, 94%, 86%) ;
+}
+
+.container{
+display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+#manifest{
+    padding-left: 20px;
+}
+
+#local{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6fe5fd;
+    color: black;
 }

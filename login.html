@@ -28,27 +28,17 @@
         <h1>ViroBase</h1>
         <input type="email" id="login_e" placeholder="Email" required>
         <input type="password" id="login_s" placeholder="Senha" required>
-        <button id="logar" onclick="cadastrar()">Fazer Login</button>
-        <p><a href="#" onclick="esqueciSenha()">Esqueci a senha</a></p>
+        <button id="logar">Fazer Login</button>
+        <p><a href="esqueci.html" >Esqueci a senha</a></p>
     </div>
-    <script>
-        function cadastrar() {
-            const email = document.getElementById("email").value;
-            const senha = document.getElementById("senha").value;
-            if (email === "" || senha === "") {
-                alert("preencha os campos corretamente.");
-                return;
-            }
-            alert("Cadastro realizado")
-        }
-        function esqueciSenha(){
-            const email = prompt("Digite seu email: ");
-            if (email) {
-                alert(`Um link foi enviado para ${email}.`);
-            } else {
-                alert("Por favor, ensira um email válido")
-            }
-        }
-    </script>
+
+    <footer id="footer">
+        <p><b>Desenvolvido por:
+        Guilherme Felipe,
+        João Pedro Marques e
+        Lucas de Morais</b>
+    </p>
+    </footer>
+    
 </body>
 </html>
