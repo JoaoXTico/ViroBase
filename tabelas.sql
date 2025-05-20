@@ -7,6 +7,7 @@ CREATE TABLE contas (
 
 CREATE TABLE manifestacoes (
   cpf VARCHAR(14),
+  localContaminado VARCHAR(40),
   febre BOOLEAN,
   fadiga BOOLEAN,
   dorCorpo BOOLEAN,
