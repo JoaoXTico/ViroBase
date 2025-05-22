@@ -44,7 +44,7 @@ if ($stmt) {
 	    $stmt->execute();
 	    // Mensagem de sucesso
         
-	    echo 'Cadastro realizado com sucesso!';
+	    header('Location: manifestacoes.html');
     } else {
 	echo 'Erro ao enviar para o banco de dados!';
     }
@@ -54,4 +54,5 @@ if ($stmt) {
 	echo 'Erro ao enviar para o banco de dados!';
 }
 $con->close();
+$_SESSION['cpf'] = $CPF;
 ?>

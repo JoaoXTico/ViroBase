@@ -19,7 +19,7 @@ $APETITE = isset($_REQUEST["apetite"]) ? 1 : 0;
 $MAL_EST = isset($_REQUEST["mal_est"]) ? 1 : 0;
 $DESIDRATACAO = isset($_REQUEST["desidratacao"]) ? 1 : 0;
 
-// checando se o texto de local foi enviado, empty() olha se o dado existe
+// checando se o texto de local foi enviado, empty() olha se o dado NÃO existe
 if (empty($LOCAL)) {
     // erro pra caso não seja possível conseguir os dados que deveriam ter sido enviados
     exit('Por favor preencha o cadastro completo!');
@@ -39,9 +39,12 @@ if ($stmt) {
         // inserindo dados no DB
         if ($stmt = $con->prepare('INSERT INTO manifestacoes (cpf, localContaminado, febre, fadiga, dorCorpo, dorGarganta, tosse, espirros, diarreia, nausea, vomitos, dorAbdominal, faltaApetite, malEstar, desidratacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')) {
 	    $stmt->bind_param('ssiiiiiiiiiiiii', $CPF, $LOCAL, $FEBRE, $FADIGA, $DOR_CORPO, $DOR_GARGANTA, $TOSSE, $ESPIRRO, $DIARREIA, $NAUSEA, $VOMITOS, $DOR_ABDOMINAL, $APETITE, $MAL_EST, $DESIDRATACAO);
-	    $stmt->execute();
-	    // Mensagem de sucesso
-        echo 'Sucesso no envio!';
+		$stmt->execute();
+
+		echo "<script>alert('Cadastro realizado com sucesso!');</script>";
+		//redirecionando para a página de manifestacoes.html
+		echo "<script>window.location.href = 'index.html';</script>";
+		exit;
 	}
     } else {
 	    echo 'O CPF não existe no banco de dados!';

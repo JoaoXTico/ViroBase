@@ -48,15 +48,16 @@ if (isset($_SESSION['account_loggedin'])) {
             <input type="text" name="Email" id="email" placeholder="fulano@exemplo.com">
             <br><br>
 
-            <p style="font-weight: bold;">Senha: </p> 
-            <input type="text" name="Senha" id="senha">
+            <p style="font-weight: bold;" >Senha: </p>
+            <input type="password" name="Senha" id="senha">
             <br><br>
 
             <p style="font-weight: bold;">Digite seu CPF: </p>
-            <input type="text" name="CPF" id="cpf" placeholder="000.000.000-00">
+            <input type="text" name="CPF" id="cpf" placeholder="000.000.000-00" oninput="mascara(this)">
             <br><br>
             
-            <a href="manifestacoes.html" id="continua">Continuar</a>
+
+            <button type="submit" id="continua">Continuar</button>
 
         </div>
      </form>
@@ -69,4 +70,17 @@ if (isset($_SESSION['account_loggedin'])) {
     </p>
     </footer>
 </body>
+<script>
+    function mascara(i){
+        var v = i.value;
+        if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+            i.value = v.substring(0, v.length-1);
+            return;
+        }
+        i.setAttribute("maxlength", "14");
+        if (v.length == 3 || v.length == 7) i.value += ".";
+        if (v.length == 11) i.value += "-";
+
+    }
+</script>
 </html>

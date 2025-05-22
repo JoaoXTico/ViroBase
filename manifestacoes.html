@@ -27,9 +27,9 @@
 
 
 <h1 style="padding-left: 20px;">Sintomas apresentados</h1>
-<p style="padding-left: 20px; font-weight: bold; font-size: large;">Selecione os sintomas que você está sentindo.</p>
 
 <div id="manifest">
+<<<<<<< HEAD
 <form id="sintomasForm" action="cadastroManifest.php" method="post">
 
 <label>Informe um local onde possivelmente ocorreu a contaminação:</label>
@@ -38,6 +38,16 @@
 <br><br>
 
 <label>Selecione os sintomas que sentiu:</label> 
+=======
+    <form id="sintomasForm" action="cadastroManifest.php" method="post">
+        <p style="padding-left: 20px; font-weight: bold; font-size: large;">Informe um local onde possivelmente ocorreu a contaminação:</p>
+        <br>
+        <input type="text" name="local_contaminado" id="local_contaminado" maxlength="40" placeholder="Santos, São Paulo">
+        <br><br>
+        
+<p style="padding-left: 20px; font-weight: bold; font-size: large;">Selecione os sintomas que você está sentindo.</p>
+<!--label ambígua removida-->
+>>>>>>> 0fe9265 (muitos erros corrigidos e lógica de cadastro concluída)
 <br><br>
 <label class="container">
 <input type="checkbox" class="checkmark" name="febre" value="febre"> <p>Febre</p></label> 
@@ -91,8 +101,6 @@
 <input type="checkbox" class="checkmark" name="desidratacao" value="desidratacao"> <p> Desidratação </p></label> 
 <br><br>
 
-<p></p>
-<input type="text" id="local" name="local">
 <br><br><br>
 
 <button type="submit" id="continua">Cadastrar</button>

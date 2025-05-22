@@ -1,3 +1,2 @@
 instalarDependencias:
-	; instalar o phpdotenv
-	composer require vlucas/phpdotenv
+	@composer require vlucas/phpdotenv

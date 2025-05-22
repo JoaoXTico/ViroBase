@@ -11,7 +11,7 @@ $dotenv->load();
 // mudança de variáveis para ficar de acordo com o banco de dados
 //olucasfracaro: adicionei o host e senha do MySQL no notebook
 $DB_HOST = 'brasa.onthewifi.com';
-$DB_USER = 'root';
+$DB_USER = 'ENIAC';
 $DB_SENHA = $_ENV['DB_SENHA'];
 $DB_NOME = 'virobase';
 
