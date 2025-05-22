@@ -23,4 +23,4 @@ CREATE TABLE manifestacoes (
   desidratacao BOOLEAN,
 
   FOREIGN KEY (cpf) REFERENCES contas(cpf)
-)
+); --esqueci desse ; kkkkk

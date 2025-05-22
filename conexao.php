@@ -2,10 +2,17 @@
 // iniciando a sessão
 session_start();
 
+//pega a senha do ".env"
+require __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 // mudança de variáveis para ficar de acordo com o banco de dados
-$DB_HOST = 'localhost';
+//olucasfracaro: adicionei o host e senha do MySQL no notebook
+$DB_HOST = 'brasa.onthewifi.com';
 $DB_USER = 'root';
-$DB_SENHA = '';
+$DB_SENHA = $_ENV['DB_SENHA'];
 $DB_NOME = 'virobase';
 
 // tentativa de conexão utilizando as informações
