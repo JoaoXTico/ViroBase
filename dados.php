@@ -20,7 +20,7 @@ if (isset($_SESSION['account_loggedin'])) {
      <header>
     <div id="logo"> 
         <a href="index.html">
-            <img src="imagens/logo_virobase.png" width="50"></div>
+            <img src="imagens/logo_virobase.png" id="imglogo"></div>
             </a>
     <nav id="menu">
         <ul>
@@ -33,7 +33,7 @@ if (isset($_SESSION['account_loggedin'])) {
     </nav>
  </header>
     
-    <h2 style="padding-left: 20px; padding-right: 30px;">Insira seus dados para realizar o cadastro</h2>
+    <h2 id="insiradados" style="padding-left: 20px; padding-right: 30px;">Insira seus dados para realizar o cadastro</h2>
     <form id="dados" method="post" action="cadastrar.php">
         <div>
             

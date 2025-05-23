@@ -10,7 +10,7 @@
 <header>
     <div id="logo"> 
         <a href="index.html">
-            <img src="imagens/logo_virobase.png" width="50">
+            <img src="imagens/logo_virobase.png" id="imglogo">
             </a>
     </div>
     <nav id="menu">
@@ -26,69 +26,69 @@
  <br><br>    
 
 
-<h1 style="padding-left: 20px;">Sintomas apresentados</h1>
+<h1 id="tituloManifest">Sintomas apresentados</h1>
 
 <div id="manifest">
     <form id="sintomasForm" action="cadastroManifest.php" method="post">
-        <p style="padding-left: 20px; font-weight: bold; font-size: large;">Informe um local onde possivelmente ocorreu a contaminação:</p>
+        <p>Informe um local onde possivelmente ocorreu a contaminação:</p>
         <br>
         <input type="text" name="local_contaminado" id="local_contaminado" maxlength="40" placeholder="Santos, São Paulo">
         <br><br>
         
-<p style="padding-left: 20px; font-weight: bold; font-size: large;">Selecione os sintomas que você está sentindo.</p>
-<!--label ambígua removida-->
+<p>Selecione os sintomas que você está sentindo.</p>
+
 <br><br>
 <label class="container">
 <input type="checkbox" class="checkmark" name="febre" value="febre"> <p>Febre</p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="fadiga" value="fadiga"> <p>Fadiga</p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="dor_corpo" value="dor_corpo"> <p> Dores no corpo </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark"  name="dor_garganta" value="dor_garganta"> <p> Dor de garganta </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="tosse" value="tosse"> <p> Tosse </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="espirro" value="espirro"> <p> Espirros </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="diarreia" value="diarreia"> <p> Diarreia </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="nausea" value="nausea"> <p> Náusea </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="vomitos" value="vomitos"> <p> Vômitos </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="dor_abdominal" value="dor_abdominal"> <p> Dor abdominal </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="apetite" value="apetite"> <p> Falta de apetite </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark"  name="mal_est" value="mal_est"> <p> Mal-estar geral </p></label> 
-<br><br>
+<br>
 
 <label class="container">
 <input type="checkbox" class="checkmark" name="desidratacao" value="desidratacao"> <p> Desidratação </p></label> 
-<br><br>
+<br>
 
 <br><br><br>
 

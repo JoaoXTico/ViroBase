@@ -1,26 +1,29 @@
 body{
-    background-color:  #ddf5fa ;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color:  #f4f3f2 ;
     margin: 0;
 }
 
 
 h1{
-    color: #026c81;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #293241;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
 }
 
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
 }
 
 
@@ -28,6 +31,9 @@ p{
     padding-right: 50px;
 }
 
+#imglogo{
+    width:200px;
+}
 
 #menu ul{
     list-style: none;
@@ -42,15 +48,15 @@ p{
 
 #menu ul li a:hover{
     color: black;
-    background-color: #55d6f0   ;
+    background-color: #55d6f0;
     transition: 0.5s all;
 }
 
 
 #menu ul li a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: black;
+    color: #293241;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
@@ -68,40 +74,55 @@ header{
 
 }
 
+#divindex {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid #005ca9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
+#index{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#subindex{
+    font-size: 25px;
+}
 
 #login {
     width: 400px;
-    margin: 100px auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 150px;
+    margin-bottom: 320px;
     padding: 20px;
     background-color: #ffffff;
     text-align: left;
-  }
+    border: 5px solid #005ca9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
  
-#login_e {
+#login input {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #d9d9d9;
-    border: none;
+    background-color: #d2ebf0;
+    border: 2px solid #005ca9;
+    border-radius: 5px;
     font-size: 14px;
   }
-
-
-#login_s {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #d9d9d9;
-    border: none;
-    font-size: 14px;
-  }  
  
 #logar {
     width: 100%;
     padding: 12px;
     background-color: #b3e5fc;
-    border: none;
+    border-radius: 999px;
+    background-color: #005ca9;
+    color: white;
     font-size: 16px;
     cursor: pointer;
   }
@@ -119,54 +140,87 @@ header{
 
 
 #esc{
+    text-align: center;
+    font-size: large;
+    border: 0px solid #005ca9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    border-radius: 8px;
+}
+
+#info{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 300px;
+    border: 5px solid #005ca9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding-left: 20px;
     padding-right: 30px;
     font-size: large;
 }
 
-#oque{
-    padding-left: 20px;
-    padding-right: 30px;
-    font-size: large;
+#info h1 {
+    text-align: center;
+}
+
+#aviso {
+    color: red;
+    font-weight: bold;
+}
+
+#info dt {
+    font-size: 30px;
+    line-height: 50px;
 }
 
 ol{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
     font-weight: bold;
 
 }
 
 ul{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
     font-weight: bold;
 
+}
+
+li p {
+    font-weight: normal;
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
 }
 
 dt{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
 }
 
 dl{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
     font-weight: bold;
 }
 
+dd {
+    font-weight: normal;
+}
+
 h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #026c81;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
 }
 
 summary{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
     color: #084552;
 }
 
@@ -175,7 +229,9 @@ summary{
     height: 200px;
     padding: 20px;
     border: 5px solid #005ca9;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 475px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -183,7 +239,7 @@ summary{
 #botao {
   background-color: #005ca9;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 999px;
@@ -192,56 +248,37 @@ summary{
   text-align: center;
 }
 
+#insiradados{
+    font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
+    color: #293241;
+    text-align: center;
+}
+
 #dados{
   width: 320px;
   height: 500px;
   padding: 30px;
   border: 5px solid #005ca9;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 180px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-#nome{
+#dados input{
     width: 90%;
     padding: 10px;
-    border: none;
+    border: 2px solid #005ca9;
     border-radius: 5px;
-    background-color: #6fe5fd;
-    color: black;
-}
-
-#email{
-    width: 90%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #6fe5fd;
-    color: black;
-}
-
-#senha{
-    width: 90%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #6fe5fd;
-    color: black;
-}
-
-#cpf{
-    width: 90%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #6fe5fd;
+    background-color: #d2ebf0;
     color: black;
 }
 
 #continua{
   background-color: #005ca9;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Hanken Grotesk Bold, Arial, Helvetica, sans-serif;
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 999px;
@@ -260,11 +297,12 @@ summary{
 #footer{
     padding: 3px;
     text-align: center;
-    background-color:  hsl(190, 94%, 86%) ;
+    background-color:#87e4fc;
+    box-shadow: 0 50vh 0 50vh #87e4fc;
 }
 
 .container{
-display: block;
+  display: block;
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
@@ -285,11 +323,48 @@ display: block;
   background-color: #eee;
 }
 
-#manifest{
-    padding-left: 20px;
+#tituloManifest {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-#local_contaminado{
+#manifest{
+    line-height: 1000px;
+    font-weight: bold; 
+    font-size: large;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 5px solid #005ca9;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    line-height: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#manifest input{
+    border: 2px solid #005ca9;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #d2ebf0;
+    width: 300px;
+    height: 25px;
+}
+
+#manifest .container {
+    line-height: 30px;
+}
+
+#manifest button{
+    width: 200px;
+}
+
+#local{
     width: 50%;
     padding: 10px;
     border: none;
