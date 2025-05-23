@@ -1,32 +1,71 @@
-# ViroBase
+# 🦠 ViroBase
 
-## Sumário
-- [Introdução](#introdução)
+![ViroBase Logo](imagens/logo_virobase.png)
+> Sistema web para conscientização e coleta de dados sobre surtos de viroses.
+---
 
-## Introdução
-<a href="introducao"></a>
-### O que é?
-ViroBase é um sistema web com o principal objetivo de conscientização e coleta de dados por meio do cadastro de usuários.
+## 📑 Sumário
 
-### Relevância
-Uma das nossas maiores motivações para criar esse projeto, foi [o surto de virose no litoral](https://jovempan.com.br/noticias/brasil/surto-de-virose-no-litoral-paulista-afeta-mais-de-2-mil-pessoas-no-guaruja.html), que chamou muita atenção no país inteiro e nos comoveu a desenvolver o projeto.
+- [📌 Introdução](#introdução)
+- [🎯 Funcionalidades](#funcionalidades)
+- [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [🚀 Demonstração](#demonstração)
+- [🧾 Créditos](#créditos)
 
-### Funcionalidades
-[Nós](#créditos) criamos este projeto com as seguintes características:
-- Registro de dados
-- Informações sobre a doença
-- Aconselhamento para o tratamento
-- Informações sobre os sintomas
+---
 
-### Metodologias
-- **HTML, CSS, JavaScript**
-- **PHP**
-- **MySQL**
+## 📌 Introdução
 
-## Demonstração
+ViroBase é um sistema web com o principal objetivo de **conscientização e coleta de dados sobre viroses** por meio do cadastro de usuários. Criamos esse projeto com o propósito de auxiliar no monitoramento e disseminação de informações sobre surtos virais em comunidades.
 
-[<u>**Site do ViroBase**</u>](https://joaoxtico.github.io/ViroBase)
+### 💡 Motivação
 
-###### Feito por: João Pedro Santos Marques, Guilherme Felipe Barradas de Moraes e Lucas de Morais Fracaro
-<a href="créditos"></a>
-######  © 2025 Todos os direitos reservados
+Uma das principais inspirações para o projeto foi o [surto de virose no litoral paulista](https://jovempan.com.br/noticias/brasil/surto-de-virose-no-litoral-paulista-afeta-mais-de-2-mil-pessoas-no-guaruja.html), que afetou milhares de pessoas e teve ampla repercussão nacional. Esse evento nos motivou a desenvolver uma solução que ajudasse a informar e proteger a população.
+
+---
+
+## 🎯 Funcionalidades
+
+- 🧾 Cadastro de usuários com coleta de dados relevantes (nome, localidade, sintomas)
+- 💬 Aconselhamento personalizado com base nas informações coletadas
+- 📖 Informações confiáveis sobre a doença e formas de prevenção
+- 🔍 Exibição dos sintomas mais comuns e medidas de cuidado
+- 📊 Armazenamento em banco de dados para análise epidemiológica
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript
+
+- **Backend:**
+  - PHP
+
+- **Banco de Dados:**
+  - MySQL
+
+- **Hospedagem Frontend:**
+  - GitHub Pages
+
+---
+
+## 🚀 Demonstração
+
+Acesse o sistema online:
+
+🔗 [<u>**Site do ViroBase**</u>](https://joaoxtico.github.io/ViroBase)
+
+---
+
+## 🧾 Créditos
+
+Desenvolvido com dedicação por:
+
+- João Pedro Santos Marques  
+- Guilherme Felipe Barradas de Moraes  
+- Lucas de Morais Fracaro
+
+© 2025 Todos os direitos reservados.
