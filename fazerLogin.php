@@ -23,10 +23,14 @@ if (mysqli_num_rows($resultadoSenha) > 0) {
 
     //verifica se os dois hashes correspondem
     if ($senhaBancoHash === $senhaInseridaHash) {
-        //salva o email na sessão
+        $query = "SELECT cpf FROM contas WHERE email = '$emailInserido'";
+        $resultadoCPF = mysqli_query($con, $query);
+        $linha = mysqli_fetch_assoc($resultadoCPF);
+        $CPF = $linha['cpf'];
+        //salva o cpf na sessão
         session_start();
-        $_SESSION['email'] = $emailInserido;
-        header('Location: manifestacoes.html'); //TEMPORÁRIO, TODO: @guilhermebm64 criar página de perfil
+        $_SESSION['cpf'] = $CPF;
+        header('Location: perfil.php');
         exit();
     } else if ($senhaBancoHash !== $senhaInseridaHash) {
         echo "<script>alert('Senha incorreta!');</script>";

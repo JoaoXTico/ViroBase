@@ -24,11 +24,12 @@ if (isset($_SESSION['account_loggedin'])) {
             </a>
     <nav id="menu">
         <ul>
-            <li> <a href="cadastro.html"> Cadastro </a></li>
             <li> <a href="info.html"> Informações </a></li>
             <li> <a href="aconselhamentos.html"> Aconselhamentos </a></li>
             <li> <a href="sintomas.html"> Sintomas </a></li>
+            <li> <a href="cadastro.html"> Cadastro </a></li>
             <li> <a href="login.html">Fazer Login</a></li>
+            <li> <a href="perfil.php">Perfil</a></li>
         </ul>
     </nav>
  </header>

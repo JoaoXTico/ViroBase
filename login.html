@@ -15,24 +15,23 @@
                 </a>
         <nav id="menu">
             <ul>
-                <li> <a href="cadastro.html"> Cadastro </a></li>
                 <li> <a href="info.html"> Informações </a></li>
                 <li> <a href="aconselhamentos.html"> Aconselhamentos </a></li>
                 <li> <a href="sintomas.html"> Sintomas </a></li>
+                <li> <a href="cadastro.html"> Cadastro </a></li>
                 <li> <a href="login.html">Fazer Login</a></li>
+                <li> <a href="perfil.php">Perfil</a></li>
             </ul>
         </nav>
      </header>
 
     <div class="container" id="login">
         <form id="formLogin" action="fazerLogin.php" method="POST">
-
         <h1>ViroBase</h1>
-        <input type="email" name="emailLogin" placeholder="Email">
-        <input type="password" name="senhaLogin" placeholder="Senha">
+        <input type="email" name="emailLogin" placeholder="Email" required>
+        <input type="password" name="senhaLogin" placeholder="Senha" required>
         <button type="submit" id="logar">Fazer Login</button>
-        <p><a href="esqueci.html" >Esqueci a senha</a></p> <!--TODO: criar página de 'Esqueci a senha'-->
-
+        <p>Ao fazer login, você poderá ter acesso às suas respostas na nossa pesquisa!</p>
         </form>
     </div>
 

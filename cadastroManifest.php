@@ -41,9 +41,7 @@ if ($stmt) {
 	    $stmt->bind_param('ssiiiiiiiiiiiii', $CPF, $LOCAL, $FEBRE, $FADIGA, $DOR_CORPO, $DOR_GARGANTA, $TOSSE, $ESPIRRO, $DIARREIA, $NAUSEA, $VOMITOS, $DOR_ABDOMINAL, $APETITE, $MAL_EST, $DESIDRATACAO);
 		$stmt->execute();
 
-		echo "<script>alert('Cadastro realizado com sucesso!');</script>";
-		//redirecionando para a página de manifestacoes.html
-		echo "<script>window.location.href = 'index.html';</script>";
+		echo "<script>window.location.href = 'perfil.php';</script>";
 		exit;
 	}
     } else {
