@@ -6,15 +6,16 @@
 
 ## 📑 Sumário
 
-- [📌 Introdução](#introdução)
+- [📌 Introdução](#introducao)
 - [🎯 Funcionalidades](#funcionalidades)
 - [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [🚀 Demonstração](#demonstração)
+- [🚀 Demonstração](#demonstracao)
 - [🧾 Créditos](#créditos)
 
 ---
 
 ## 📌 Introdução
+<a id="introducao"></a>
 
 ViroBase é um sistema web com o principal objetivo de **conscientização e coleta de dados sobre viroses** por meio do cadastro de usuários. Criamos esse projeto com o propósito de auxiliar no monitoramento e disseminação de informações sobre surtos virais em comunidades.
 
@@ -25,7 +26,7 @@ Uma das principais inspirações para o projeto foi o [surto de virose no litora
 ---
 
 ## 🎯 Funcionalidades
-
+<a id="funcionalidades"></a>
 - 🧾 Cadastro de usuários com coleta de dados relevantes (nome, localidade, sintomas)
 - 💬 Aconselhamento personalizado com base nas informações coletadas
 - 📖 Informações confiáveis sobre a doença e formas de prevenção
@@ -35,7 +36,7 @@ Uma das principais inspirações para o projeto foi o [surto de virose no litora
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
+<a id="tecnologias-utilizadas"></a>
 - **Frontend:**
   - HTML5
   - CSS3
@@ -53,7 +54,7 @@ Uma das principais inspirações para o projeto foi o [surto de virose no litora
 ---
 
 ## 🚀 Demonstração
-
+<a id="demonstracao"></a>
 Acesse o sistema online:
 
 🔗 [<u>**Site do ViroBase**</u>](https://joaoxtico.github.io/ViroBase)
@@ -61,7 +62,7 @@ Acesse o sistema online:
 ---
 
 ## 🧾 Créditos
-
+<a id="creditos"></a>
 Desenvolvido com dedicação por:
 
 - João Pedro Santos Marques  
